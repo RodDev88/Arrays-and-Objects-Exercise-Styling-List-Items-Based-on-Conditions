@@ -1,7 +1,6 @@
 ## Instrucciones ejercicio ciclos y condicionales
 
-1. Crea un archivo llamado misdatos.html.
-   Este archivo será donde trabajaremos el código HTML y JavaScript.
+1. Crea un archivo HTML.
 
 2. Utiliza el mismo arreglo del código anterior:
 
@@ -32,6 +31,6 @@ Genera un elemento `<li>` con el texto del valor y aplica el color correspondien
 
 ### Resultado esperado:
 
-- Cuando abras el archivo misdatos.html en el navegador, verás una lista donde:
+- Cuando abras el archivo en el navegador, verás una lista donde:
 - Los números entre 1000 y 2000 están en color verde.
 - Los números fuera de ese rango están en color rojo.
