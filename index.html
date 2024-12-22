@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Estilos generales */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        font-size: 18px;
+        margin: 5px 0;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      /* Clases para los colores */
+      .verde {
+        color: white;
+        background-color: green;
+      }
+
+      .rojo {
+        color: white;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      FullStack JS - Arrays and Objects Exercise: Styling List Items Based on
+      Conditions
+    </h1>
+    <ul id="mis-datos"></ul>
+
+    <script>
+      const datos = [1200, 350, 1500, 1400, 250, 5000, 1950, 1952];
+      const d = document.querySelector("#mis-datos");
+      let html = "";
+      for (let item of datos) {
+        if (item >= 1000 && item <= 2000) {
+          html += `<li class="verde">${item}</li>`;
+        } else {
+          html += `<li class="rojo">${item}</li>`;
+        }
+      }
+      d.innerHTML = html;
+    </script>
+  </body>
+</html>
